@@ -18,7 +18,6 @@ export default function Home() {
       <ProjectsSection />
       <BlogSection />
       <AboutSection />
-      {/* Footer  */}
     </main>
   );
 }
