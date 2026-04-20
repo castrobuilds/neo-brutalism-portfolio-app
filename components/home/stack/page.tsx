@@ -1,6 +1,6 @@
 import StackCard from "./stack-card";
 
-export default function Stack() {
+export default function StackSection() {
   return (
     <section className="mb-25">
       <h2 className="text-4xl mb-10 relative inline-block">Tech Stack</h2>

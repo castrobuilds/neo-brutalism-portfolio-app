@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function HeroSection() {
   return (
     <section className="relative flex justify-between items-center mb-25 overflow-hidden p-5 border-3 border-black bg-white">
       <div>

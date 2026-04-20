@@ -1,6 +1,6 @@
 import ProjectCard from "./project-card";
 
-export default function Projects() {
+export default function ProjectsSection() {
   return (
     <section>
       <h2 className="text-4xl mb-10 relative inline-block">Projects</h2>

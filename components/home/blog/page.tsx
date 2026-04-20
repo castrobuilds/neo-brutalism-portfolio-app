@@ -1,6 +1,6 @@
 import BlogCard from "./blog-card";
 
-export default function Blog() {
+export default function BlogSection() {
   return (
     <section className="mb-25">
       <h2 className="text-4xl mb-10 relative inline-block">Blog</h2>

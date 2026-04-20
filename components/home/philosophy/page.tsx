@@ -1,4 +1,4 @@
-export default function Philosophy() {
+export default function PhilosophySeparator() {
   return (
     <div className="relative px-20 my-25 overflow-hidden border-3 border-black bg-amber-200">
       <div className="relative z-10 text-center py-5">
