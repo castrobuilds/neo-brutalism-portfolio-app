@@ -1,6 +1,6 @@
 export default function Philosophy() {
   return (
-    <div className="relative px-20 mx-25 overflow-hidden border-3 border-black bg-amber-200">
+    <div className="relative px-20 my-25 overflow-hidden border-3 border-black bg-amber-200">
       <div className="relative z-10 text-center py-5">
         <h2 className="text-5xl mb-5">Philosophy</h2>
         <p className="text-lg mx-auto mb-5 w-2/3">
