@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <header className="flex justify-between items-center py-5 mb-12 sticky top-0 z-10 ">
+    <header className="flex justify-between items-center py-5 mb-12 sticky top-0 z-100">
       <div>LOGO</div>
       <nav>
         <ul className="flex gap-5">
