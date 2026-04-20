@@ -1,6 +1,8 @@
+import Blog from "@/components/blog/page";
 import FeaturedCard from "@/components/featured-card/page";
 import Hero from "@/components/hero/page";
 import Philosophy from "@/components/philosophy/page";
+import Projects from "@/components/projects/page";
 import SpecializationCard from "@/components/specialization-card/page";
 import Stack from "@/components/stack/page";
 
@@ -28,8 +30,9 @@ export default function Home() {
       </section>
 
       <Stack />
-      {/* Projects Section */}
-      {/* Blog Section */}
+
+      <Projects />
+      <Blog />
       {/* About Me Section */}
       {/* Footer  */}
     </main>
