@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@theme {
+  --font-syne: var(--font-syne);
+  --font-space-grotesk: var(--font-space-grotesk);
+  --font-inter: var(--font-inter);
+  --font-space-mono: var(--font-space-mono);
+
+  --color-background: #fffdf5;
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-accent: #ffd23f;
+  --color-accent2: #ff6b6b;
+  --color-accent3: #74b9ff;
+  --color-accent4: #88d498;
+  --color-accent5: #ffa552;
+  --color-accent6: #b8a9fa;
+
+  --border-thin: 2px solid #000000;
+  --border-default: 3px solid #000000;
+  --border-thick: 4px solid #000000;
+
+  --radius: 0;
+
+  --shadow-sm: 3px 3px 0px #000000;
+  --shadow-default: 5px 5px 0px #000000;
+  --shadow-lg: 8px 8px 0px #000000;
+  --shadow-xl: 12px 12px 0px #000000;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  line-height: 1.6;
+  @apply antialiased text-black;
+}
+
+@utility hero-title {
+  font-family: var(--font-space-grotesk);
+  font-weight: 800;
+  font-size: 3.5rem;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+@utility hero-text {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+@utility section-title {
+  font-family: var(--font-space-grotesk);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: var(--color-accent2);
+}
+
+h3 {
+  font-family: var(--font-space-mono);
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+@utility link {
+  font-family: var(--font-space-mono);
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+@utility btn {
+  border: var(--border-default);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-default);
+  background: var(--color-accent);
+  color: var(--color-primary);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  font-family: var(--font-space-mono);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--color-accent3);
+  outline-offset: 3px;
+}
+
+@utility card {
+  background: var(--card-bg, var(--color-secondary));
+  border: var(--border-default);
+  box-shadow: var(--shadow-lg);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  padding: 0;
+}
+
+.card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lg);
+}
+
+@utility blog-date {
+  font-family: var(--font-space-mono);
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--color-accent2);
+  text-transform: uppercase;
+}
