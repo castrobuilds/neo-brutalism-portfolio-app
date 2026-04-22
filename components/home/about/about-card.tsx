@@ -1,13 +1,15 @@
+import { IconRenderer } from "@/utils/IconRenderer";
 import { ArrowRight } from "lucide-react";
 
-export default function AboutCard() {
+export default function AboutCard({ item }: { item: any }) {
   return (
     <div className="p-5 card bg-white">
-      <h4 className="text-xl mb-2">More About Me</h4>
-      <p className="mb-4 text-sm text-black/50">
-        What I do, my passions, and what drives me in the world of software
-        development.
-      </p>
+      <div className="flex items-center gap-2 mb-3">
+        <IconRenderer iconName={item.icon} size={28} />
+        <h4 className="text-xl">{item.title}</h4>
+      </div>
+
+      <p className="mb-4 text-sm text-black/50">{item.description}</p>
       <a
         className="link inline-flex items-center gap-1 group text-accent2 hover:text-primary"
         href="#"
