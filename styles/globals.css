@@ -164,3 +164,33 @@ p {
   color: var(--color-accent2);
   text-transform: uppercase;
 }
+
+@utility project-card {
+  border: var(--border-default);
+  box-shadow: var(--shadow-lg);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  padding: 0;
+  position: relative; /* Ensure the info can anchor here */
+  cursor: pointer;
+}
+
+/* Position the info div to cover the card and hide it */
+.project-info {
+  position: absolute;
+  inset: 0; /* Cover everything */
+  background-color: var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(100%); /* Start hidden below the card */
+  z-index: 20;
+}
+
+/* Slide it up on hover */
+.project-card:hover .project-info {
+  transform: translateY(0);
+}

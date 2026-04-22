@@ -12,7 +12,7 @@ export default function HeroSection() {
       </div>
       <div className="relative">
         <img
-          src="/images/hero-image.png"
+          src="/images/other/me.jpg"
           alt="Hero Image"
           className="w-75 h-75 object-cover bg-amber-100 border-3 border-black overflow-hidden"
         />

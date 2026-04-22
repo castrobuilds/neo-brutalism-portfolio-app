@@ -14,7 +14,7 @@ export default function BlogCard() {
           className="link inline-flex items-center gap-1 group text-primary hover:text-accent2"
           href="#"
         >
-          <span>DETAILS</span>
+          <span>READ MORE</span>
           <ArrowRight size={18} />
         </a>
       </div>
