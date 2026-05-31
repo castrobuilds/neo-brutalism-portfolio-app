@@ -1,0 +1,42 @@
+export const projectsData = [
+  {
+    id: 1,
+    title: "Tredia",
+    description: "3 Day Minimalist Task Manager.",
+    featured: "true",
+    color: "accent1",
+    cover: "/images/projects/tredia-cover.png",
+  },
+  {
+    id: 2,
+    title: "Histora",
+    description: "Interactive Historical Timeline Generator.",
+    featured: "true",
+    color: "accent2",
+    cover: "/images/projects/histora-cover.png",
+  },
+  {
+    id: 3,
+    title: "Rising Star",
+    description: "Social Soccer Simulation & Management Game",
+    featured: "true",
+    color: "accent3",
+    cover: "/images/projects/rising-star-cover.png",
+  },
+  {
+    id: 4,
+    title: "Big Bang Workshop",
+    description: "A Deterministic Cosmic Evolution Crafting Engine.",
+    featured: "true",
+    color: "accent4",
+    cover: "/images/projects/big-bang-cover.png",
+  },
+  {
+    id: 5,
+    title: "Sudoku Twist",
+    description: "Puzzle Engine with Dynamic Rules",
+    featured: "false",
+    color: "accent5",
+    cover: "/images/projects/sudoku-cover.png",
+  },
+];
