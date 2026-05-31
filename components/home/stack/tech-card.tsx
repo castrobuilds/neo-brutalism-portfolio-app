@@ -20,10 +20,19 @@ export default function TechCard({ tech }: { tech: any }) {
       >
         <IconRenderer iconName={tech.icon} size={30} />
       </div>
+<<<<<<< HEAD
       {/* Tooltip */}
       <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-max bg-black text-white text-[10px] px-2 py-1 border border-white z-20">
         {tech.hoverText}
       </span>{" "}
+=======
+
+      {/* Tooltip on Hover 
+            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-max bg-black text-white text-[10px] px-2 py-1 border border-white z-20">
+              {tech.hoverText}
+            </span>
+            */}
+>>>>>>> 58a2c9067d228ccc54c50c3c9afc4628f6a15252
     </div>
   );
 }

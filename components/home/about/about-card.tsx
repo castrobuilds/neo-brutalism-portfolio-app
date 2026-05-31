@@ -10,10 +10,16 @@ export default function AboutCard({ item }: { item: any }) {
       </div>
 
       <p className="mb-4 text-sm text-black/50">{item.description}</p>
+<<<<<<< HEAD
 
       <a
         className="link inline-flex items-center gap-1 group text-accent2 hover:text-primary"
         href=""
+=======
+      <a
+        className="link inline-flex items-center gap-1 group text-accent2 hover:text-primary"
+        href="#"
+>>>>>>> 58a2c9067d228ccc54c50c3c9afc4628f6a15252
       >
         <span>DETAILS</span>
         <ArrowRight size={18} />

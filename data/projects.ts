@@ -12,7 +12,7 @@ export const projectsData = [
     title: "Histora",
     description: "Interactive Historical Timeline Generator.",
     featured: "true",
-    color: "accent2",
+    color: "accent6",
     cover: "/images/projects/histora-cover.png",
   },
   {
@@ -20,7 +20,7 @@ export const projectsData = [
     title: "Rising Star",
     description: "Social Soccer Simulation & Management Game",
     featured: "true",
-    color: "accent3",
+    color: "accent4",
     cover: "/images/projects/rising-star-cover.png",
   },
   {
@@ -36,7 +36,7 @@ export const projectsData = [
     title: "Sudoku Twist",
     description: "Puzzle Engine with Dynamic Rules",
     featured: "false",
-    color: "accent5",
+    color: "accent3",
     cover: "/images/projects/sudoku-cover.png",
   },
 ];
