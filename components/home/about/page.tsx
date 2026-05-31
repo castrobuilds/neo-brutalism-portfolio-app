@@ -8,11 +8,7 @@ export default function AboutSection({ about }: { about: any }) {
       <h2 className="section-title mb-10">About Me</h2>
       <div className="flex justify-between gap-12">
         {/* About Me Content */}
-<<<<<<< HEAD
         <div className="card w-1/2 p-10 bg-accent1! saturate-200 text-white">
-=======
-        <div className="card w-1/2 p-10 bg-accent2! saturate-200 text-white">
->>>>>>> 58a2c9067d228ccc54c50c3c9afc4628f6a15252
           <h3 className="text-4xl! mb-10 ">Hi, I'm {aboutData.main.name}</h3>
           {aboutData.main.bio.map((paragraph: string, index: number) => (
             <p key={index} className="font-inter! text-xl! font-semibold! mb-4">

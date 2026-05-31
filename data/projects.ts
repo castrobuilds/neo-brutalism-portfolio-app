@@ -12,7 +12,7 @@ export const projectsData = [
     title: "Histora",
     description: "Interactive Historical Timeline Generator.",
     featured: "true",
-    color: "accent6",
+    color: "accent5",
     cover: "/images/projects/histora-cover.png",
   },
   {
